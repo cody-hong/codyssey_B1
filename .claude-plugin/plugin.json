@@ -1,0 +1,20 @@
+{
+  "name": "codybot",
+  "description": "한국어 교육 미션 분석, 개념 설명, 자기주도학습 계획, 제출 체크리스트 생성을 돕는 Codyssey 미션 코치 스킬입니다.",
+  "version": "1.0.0",
+  "author": {
+    "name": "cody-hong"
+  },
+  "license": "MIT",
+  "keywords": [
+    "codyssey",
+    "mission-coach",
+    "korean",
+    "prompt",
+    "education",
+    "self-directed-learning"
+  ],
+  "skills": [
+    "./skills/codybot"
+  ]
+}

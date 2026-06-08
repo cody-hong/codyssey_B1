@@ -1,0 +1,31 @@
+{
+  "name": "codybot",
+  "id": "codybot",
+  "owner": {
+    "name": "cody-hong"
+  },
+  "metadata": {
+    "description": "한국어 교육 미션 분석과 자기주도학습 계획 생성을 돕는 Codybot 스킬",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "codybot",
+      "source": "./",
+      "description": "Codyssey 스타일 미션 안내문을 분석하고 왕초보부터 전문가까지 수준별로 개념 설명, 제출 계획, 체크리스트, 검증 기준을 안내합니다.",
+      "version": "1.0.0",
+      "author": {
+        "name": "cody-hong"
+      },
+      "keywords": [
+        "codyssey",
+        "mission-coach",
+        "korean",
+        "prompt",
+        "education",
+        "self-directed-learning"
+      ],
+      "category": "education"
+    }
+  ]
+}
