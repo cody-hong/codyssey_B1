@@ -213,7 +213,7 @@ assets/codyssey-mission-coach-roadmap.png
 | v1 -> v2 -> v3 개선 및 전후 비교 | 충족 | `02. 시스템 설계 문서.md` |
 | 환각 검증 질문 5개 | 충족 | `02. 시스템 설계 문서.md` |
 | 10턴 이상 대화 로그와 문맥 유지 검증 | 충족 | `03. 실행 로그.md`, `04. 실행로그 전문.md` |
-| 보너스 1: 나만의 봇 배포 | 선택 반영 | `skills/codybot/SKILL.md`, `.claude-plugin/` |
+| 보너스 1: 나만의 봇 배포 | 선택 반영 | `skills/codybot/SKILL.md`, `.claude-plugin/`, `gemini-extension.json`, `GEMINI.md`, `commands/codybot.toml` |
 | 보너스 2: 멀티모달 확장 | 선택 반영 | `assets/codyssey-mission-coach-roadmap.png` |
 
 ## 참고 문서
