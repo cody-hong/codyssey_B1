@@ -1,0 +1,6 @@
+{
+  "name": "codybot",
+  "version": "1.0.0",
+  "description": "한국어 교육 미션 분석, 개념 설명, 자기주도학습 계획, 제출 체크리스트 생성을 돕는 Codybot Gemini CLI extension입니다.",
+  "contextFileName": "GEMINI.md"
+}

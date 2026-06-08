@@ -127,6 +127,45 @@ Claude Code에서 플러그인 설치를 지원하는 경우 아래 방식으로
 
 이 방식은 Claude Code의 플러그인 기능을 사용하는 설치 방식입니다. 환경에 따라 실제 설치 가능 여부가 달라질 수 있으므로, 설치가 되지 않으면 위의 Codex 설치 방식이나 수동 설치 방식을 사용합니다.
 
+### Gemini CLI extension으로 설치하기
+
+Gemini CLI에서 extension 설치를 지원하는 경우 아래 명령어로 설치할 수 있습니다.
+
+```bash
+gemini extensions install https://github.com/cody-hong/codyssey_B1_1
+```
+
+설치 후 Gemini CLI 세션을 재시작합니다.
+
+설치 확인:
+
+```bash
+gemini extensions list
+```
+
+Gemini CLI 안에서는 아래 명령어로 extension 상태를 확인할 수 있습니다.
+
+```text
+/extensions list
+```
+
+사용:
+
+```text
+/codybot
+```
+
+Gemini CLI용 구성 파일:
+
+```text
+gemini-extension.json
+GEMINI.md
+commands/codybot.toml
+skills/codybot/SKILL.md
+```
+
+`gemini-extension.json`은 Gemini CLI가 이 저장소를 extension으로 인식하기 위한 파일입니다. `GEMINI.md`는 extension이 로드될 때 기본 지침을 제공하고, `commands/codybot.toml`은 `/codybot` 명령을 제공하며, `skills/codybot/SKILL.md`는 실제 미션 코치 스킬 규칙을 담고 있습니다.
+
 ### 설치 후 기대 동작
 
 `/codybot`을 입력하면 먼저 학습 레벨을 선택하게 안내합니다.
